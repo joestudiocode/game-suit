@@ -4,46 +4,63 @@
   --third: #8ec3b0;
   --bgc: #424242;
 }
+
 *,
 html {
   padding: 0;
   margin: 0;
 }
-.gunting {
+
+.gunting,
+.batu,
+.kertas {
   rotate: 180deg;
 }
+
 body {
   box-sizing: border-box;
+  background-color: #cecece;
 }
+
 li {
   list-style-type: none;
 }
+
 .info {
+  display: grid;
+  place-content: center;
+  height: 75px;
+  width: 150px;
+  background-color: var(--third);
   font-size: 2rem;
   color: black;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 1rem;
+  margin-bottom: 3rem;
+  
 }
 
 .containerTitle {
   display: flex;
   justify-content: center;
 }
-/* Computer */
 
+/* Computer */
 .area-computer {
   display: flex;
   justify-content: center;
 }
+
 .img-com {
   display: flex;
   height: 150px;
   width: 150px;
-  background-color: var(--secondary);
+  background-color: var(--primary);
   justify-content: center;
   align-items: center;
   border-radius: 2rem;
   margin-bottom: 3rem;
-}
-.area-computer img {
 }
 /* Player */
 .containerPlayer {
@@ -61,4 +78,5 @@ li {
   justify-content: center;
   align-items: center;
   border-radius: 2rem;
+  cursor: pointer;
 }

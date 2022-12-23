@@ -59,7 +59,7 @@ choice.forEach(function (params) {
           const info = document.querySelector(".info");
           info.innerHTML = resultFinal;
         });
-      }, 1100);
+      }, 1010);
     },
     1000
   );
