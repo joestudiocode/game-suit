@@ -1,0 +1,64 @@
+:root {
+  --primary: #def5e5;
+  --secondary: #bcead5;
+  --third: #8ec3b0;
+  --bgc: #424242;
+}
+*,
+html {
+  padding: 0;
+  margin: 0;
+}
+.gunting {
+  rotate: 180deg;
+}
+body {
+  box-sizing: border-box;
+}
+li {
+  list-style-type: none;
+}
+.info {
+  font-size: 2rem;
+  color: black;
+}
+
+.containerTitle {
+  display: flex;
+  justify-content: center;
+}
+/* Computer */
+
+.area-computer {
+  display: flex;
+  justify-content: center;
+}
+.img-com {
+  display: flex;
+  height: 150px;
+  width: 150px;
+  background-color: var(--secondary);
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+  margin-bottom: 3rem;
+}
+.area-computer img {
+}
+/* Player */
+.containerPlayer {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.containerPlayer li {
+  display: flex;
+  height: 150px;
+  width: 150px;
+  background-color: var(--primary);
+  /* margin: 2rem; */
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+}
